@@ -71,6 +71,8 @@ export function shout(message: string): string {
  * Consumes a string (a message) and returns a boolean if the string ends in a question
  * mark. Do not use an `if` statement in solving this question.
  */
+
+//no conditionals
 export function isQuestion(message: string): boolean {
     return message[message.length - 1] === "?" ? true : false;
     //return true;
